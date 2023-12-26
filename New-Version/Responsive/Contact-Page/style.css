@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/Recursos/bg-image.svg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.two-column-form {
+    max-width: 600px;
+    margin: 20px auto 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.form1 {
+    background-color: #704ea5;
+    border-radius: 20px;
+}
+
+.form-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center;
+}
+
+/* Estilo específico para el textarea y button en la nueva disposición de una columna */
+.form-2 textarea {
+    width: 330px; /* Ocupar el 100% del ancho del contenedor (form-2) */
+    color: #704ea5;
+    border: none;
+    border-radius: 5px;
+    height: 150px;
+    box-sizing: border-box; /* Ajuste para incluir el padding y el border en el ancho */
+    margin: 5px;
+}
+.form-2 button {
+    width: 330px; /* Ocupar el 100% del ancho del contenedor (form-2) */
+    color: #704ea5;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    box-sizing: border-box; /* Ajuste para incluir el padding y el border en el ancho */
+    margin: 5px;
+}
+
+/* Estilo para los elementos del formulario (excluyendo textarea y button) */
+label,
+input,
+select {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin: 5px;
+}
