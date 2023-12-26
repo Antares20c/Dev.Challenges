@@ -1,74 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
-
 body {
-    font-family: "Sora", sans-serif;
-    background-color: #E5EAF0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.blog-card {
     background-color: #FAFAF9;
-    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    max-width: 340px;
-    overflow: hidden;
-    padding: 16px 16px 20px 16px; /* Arriba, Derecha, Abajo, Izquierda */
+    font-family: 'Sora', sans-serif;
 }
 
-.blog-card img {
-    width: auto;
-    height: auto;
-    object-fit: cover;
-    display: block;
-    padding: 0px 0px 5px; /* Alinea la imagen al centro */
-    border-radius: 20px;
-}
-
-.blog-content {
-    padding: 10px; /* Espacio interior para los textos */
-    text-align: center;
-}
-
-.blog-content h2 {
-    font-size: 18px;
-    font-weight: 1.125rem;
-    margin: 0;
-    padding: 10px; /* Elimina el margen predeterminado */
-}
-
-p {
-    font-size: 14px;
-    font-weight: 0.875rem;
-    color: #6C727F;
-    margin: 0;
-    padding-bottom: 12px;
-}
-
-.line {     
-    border: .1px solid #8c8e9180;
-    margin-bottom: 15px;
+.box {
+    margin: 0 auto;
+    margin-top: 164px;
+    background-color: brown; 
+    width: 368px;
+    height: 100%; 
+    background-color: #FFFFFF; 
+    border-radius: 25px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 } 
 
-.blog-tag {
-    background-color: #E6D6FC;
-    color: #20293A;
-    border-radius: 10px;
-    padding: 5px 10px;
+.img-cactus {
+    width: 336px;
+    height: 152px;
+    padding: 16px; 
+    border-radius: 25px;
+} 
+
+.btn-design {
+    padding: 6px 16px;
+    margin-left: 16px;
+    background-color: #E6D6FC;   
+    text-decoration: none;
+    color: #883AE1;
     font-size: 10px;
-    font-size: 0.625rem;
-    display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 0; /* Elimina el margen inferior para una alineación perfecta */
+    font-weight: bold;
+    border-radius: 25px;
+}   
+
+.h2-cactus {
+    margin-left: 16px;
+    font-size: 18px;
+    margin-bottom: 6px;
+} 
+
+.p-cactus {
+    margin-left: 16px; 
+    margin-right: 16px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #6C727F;
 }
 
-footer p {
-    color: #a0a0a0;
-    font-size: 12px;
-    font-weight: 0.625rem;
+.p-cactus-2 {
+    margin: 20px 16px;
+    padding-bottom: 20px;
+    font-size: 12px; 
+    color: #6C727F;
+}
+
+hr {
+    border: .1px solid #E5EAF080;
 }
